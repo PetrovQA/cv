@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      <h1 class="header__title">Кирилл Петров Морковкин</h1>
+      <h3 class="header__subtitle">QA engineer</h3>
+    </header>
+    <main>
+      <section class="links">
+        <h2 class="links__header">Контакты</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Телеграм</p>
+            <a class="linsk__link" href="http://t.me/uziverrt">@uziverrt</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Эл. почта</p>
+            <a class="linsk__link" href="mailto:antagonist0@mail.ru"
+              >antagonist0@mail.ru</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h2 class="links__header">Инструменты тестирования</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Документация</p>
+            <a class="linsk__link">Notion, Swagger</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Backend</p>
+            <a class="linsk__link">Postman, SoapUI</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Front</p>
+            <a class="linsk__link">DevTools, PerfectPixel, Bugmagnet</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Мобилки</p>
+            <a class="linsk__link">Android Studio, Charles</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Базы данных</p>
+            <a class="linsk__link">Metabase, NoSQL - MongoDB</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">TMS</p>
+            <a class="linsk__link">Test it, Zephyr</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Просмотр логов</p>
+            <a class="linsk__link">Kibana, Sentry</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Таск-трекер</p>
+            <a class="linsk__link">Яндекс-трекер, Jira</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Снифферы</p>
+            <a class="linsk__link">Charles</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button type = "button" class="button-link" href=""> Тестирование на ранних этапах сохраняет время и деньги </button>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
